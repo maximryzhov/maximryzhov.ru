@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>[Максим Рыжов] — Fullstack Python разработчик</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav">
+            <div class="logo">[Максим Рыжов]</div>
+            <div class="status">
+                <div class="status-badge">
+                    <span class="green-dot"></span>
+                    <span>Ищу работу</span>
+                </div>
+                <div class="location-badge">
+                    <i class="fas fa-map-marker-alt"></i> Россия, Уфа
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#about">О себе</a>
+                <a href="#timeline">Работа</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- СЕКЦИЯ: О себе (фото слева) -->
+    <section id="about" class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-photo">
+                    <div class="photo-rect">
+                        <img src="hero.jpg" alt="">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h2>Fullstack Python | Бизнес-приложения</h2>
+                    <div class="hero-tags">
+                        <span class="hero-tag">#Python</span>
+                        <span class="hero-tag">#Javascript</span>
+                        <span class="hero-tag">#бизнес-логика</span>
+                        <span class="hero-tag">#Low-code</span>
+                        <span class="hero-tag">#Data-Oriented Design</span>
+                    </div>
+                    <ul class="bullet-list">
+                        <li>Разрабатываю backend и fullstack-решения для внутренних бизнес-приложений с 2014 года.
+                        </li>
+                        <li>Проектирую системы, которые легко меняются: заменяю хардкод конфигурациями, BPMN-схемами
+                            и DSL.</li>
+                        <li>Реализовал проекты для отдела безопасности (М.Видео), логистических сервисов (SDL Group,
+                            Catapulto, Farfor) и стартапов — в штате и на фрилансе (Upwork).</li>
+                        <li>Профессиональное образование в области английского языка позволяет писать спецификации не
+                            только для людей, но и для ИИ-агентов.</li>
+                        <li>Увлечён разработкой игр, написанием движков и скриптовых языков, что помогает лучше
+                            знать более низкий программный уровень.</li>
+                            <li>Разрабатываю личные и опен-сорс проекты на <a class="link" target="_blank" href="https://github.com/maximryzhov">GitHub</a>.</li>
+                        <li>Веду <a target="_blank" class="link" href=" https://rmgi.blog/">блог</a> на
+                            английском
+                            языке.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+    </section>
+
+    <div class="container">
+        <!-- <h2 class="section-title">Навыки и умения</h2> -->
+        <div class="skills-icons" id="skillsIcons">
+            <div class="skill-icon-item"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="skill-icon-item"><i class="devicon-django-plain"></i><span>Django</span></div>
+            <div class="skill-icon-item"><i class="devicon-fastapi-plain"></i><span>FastAPI</span></div>
+            <div class="skill-icon-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
+            <div class="skill-icon-item"><i class="devicon-sqlalchemy-plain"></i><span>SQLAlchemy</span></div>
+            <div class="skill-icon-item"><i class="fas fa-tasks"></i><span>Celery</span></div>
+            <div class="skill-icon-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+            <div class="skill-icon-item"><i class="fas fa-chart-line"></i><span>Sentry</span></div>
+            <div class="skill-icon-item"><i class="fab fa-react"></i><span>React</span></div>
+            <div class="skill-icon-item"><i class="fab fa-vuejs"></i><span>Vue</span></div>
+            <div class="skill-icon-item"><i class="fas fa-project-diagram"></i><span>BPMN</span></div>
+            <div class="skill-icon-item"><i class="devicon-csharp-plain"></i><span>C#</span></div>
+        </div>
+    </div>
+
+    <section id="timeline">
+        <div class="container">
+            <h2 class="section-title">Опыт работы</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>М.Видео (аутсорс, отдел безопасности) — Fullstack-разработчик</h3>
+                    <span>2023 – 2024</span>
+                    <ul class="bullet-list">
+                        <li>Разработка платформы для анализа контрагентов, кредитного скоринга</li>
+                        <li>Интеграции с внешними и внутренними API на FastAPI и swagger</li>
+                        <li>Исполняемые BPMN-схемы (no-code)</li>
+                        <li>Разработка конфигурируемого конструктора API-запросов (low-code)</li>
+                        <li>CI/CD с Gitea и Docker</li>
+                        <li>Сбор требований от бизнеса, формирование ТЗ и user stories.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>SDL Group — Fullstack разработчик</h3>
+                    <span>2019 – 2020</span>
+                    <ul class="bullet-list">
+                        <li>Проектирование и создание внутренней системы для работы с контрагентами на Django Rest
+                            Framework, PostgreSQL.
+                        </li>
+                        <li>Проектирование и создание фронтенда на React</li>
+                        <li>Создание конструктора для транспортной документации</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Veikab — разработчик</h3>
+                    <span>2015</span>
+                    <ul class="bullet-list">
+                        <li>Разработка и поддержка сервиса аггрегатора доставок Catapulto на Django</li>
+                        <li>Интеграция с API логистических компаний</li>
+                        <li>Разработка веб-приложения на ExtJS для сервиса доставки Farfor</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>РуЭлСофт / Ajetbox — разработчик</h3>
+                    <span>2013 - 2014</span> и <span> 2015</span>
+                    <ul class="bullet-list">
+                        <li>Реализация иерархических структур на базе Django MPTT</li>
+                        <li>Архитектура MLM-системы: реферальные уровни, бонусные цепочки</li>
+                        <li>Конструктор лэндингов для пользователей (фронтенд + бэкенд)</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>ООО "Дататех" — технический писатель</h3>
+                    <span>2013</span>
+                    <ul class="bullet-list">
+                        <li>Написание технической и пользовательской документации для банкоматов</li>
+                        <li>Перевод с русского на английский язык</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Фриланс</h3>
+                    <span>2015 – настоящее время</span>
+                    <ul class="bullet-list">
+                        <li>Более 50 проектов на Upwork</li>
+                        <li>От простых ботов и скрейперов до GUI приложений и нагруженных систем</li>
+                        <li>Возможна демонстрация проектов по запросу</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>Пет-проекты</h3>
+                    <span>2014 – настоящее время</span>
+                    <ul class="bullet-list">
+                        <li>Workflow и rule движки</li>
+                        <li>Участие в opensource проектах</li>
+                        <li>Создание инструментов для разработки игр - редакторы, скриптовые языки</li>
+                        <li>Эксперименты с LLM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРОЕКТЫ -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Открытый код</h2>
+            <p class="section-description">Некоторые личные и некоммерческие опен-сорс проекты с моего Github. Код
+                коммерческих проектов закрыт и не подлежит распространению.</p>
+            <div class="grid" style="margin-bottom: 48px;">
+                <div class="card">
+                    <h3>Fallout Mediawiki RAG</h3>
+                    <div class="card-tags">
+                        <span class="card-tag">Python</span>
+                        <span class="card-tag">LLM</span>
+                        <span class="card-tag">RAG</span>
+                    </div>
+                    <p>RAG-система для поиска по архиву fallout.fandom.com</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/fallout-mediawiki-rag" class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>DATExpr</h3>
+                    <div class="card-tags"><span class="card-tag">C#</span></div>
+                    <p>Лексер, парсер и интерпретатор простого скриптого языка</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/datexpr" class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>DATFlow</h3>
+                    <div class="card-tags"><span class="card-tag">Javascript</span><span class="card-tag">Vue.js</span>
+                    </div>
+                    <p>Визуальный редактор диалоговых деревьев для игровых движков</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/datflow" class="project-url">GitHub</a>
+                    <a target="_blank" href="https://maximryzhov.github.io/" class="project-url">Онлайн демо</a>
+                </div>
+                <div class="card">
+                    <h3>Плагин для Kanboard</h3>
+                    <div class="card-tags"><span class="card-tag">PHP</span></div>
+                    <p>Расширеная система прав для популярного канбан-трекера</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/kanboard-more-restrictions"
+                        class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>Static blog generator</h3>
+                    <div class="card-tags"><span class="card-tag">Python</span></div>
+                    <p>Генератор статических сайтов из markdown файлов, с client-side поиском</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/static-blog-generator"
+                        class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>PyBL</h3>
+                    <div class="card-tags"><span class="card-tag">Python</span><span class="card-tag">Workflow</span>
+                    </div>
+                    <p>No-code программирование бизнес-логики с помощью узлов, подобных AST</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/pybl" class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>MyFSM</h3>
+                    <div class="card-tags"><span class="card-tag">Python</span><span class="card-tag">Workflow</span>
+                    </div>
+                    <p>Машина состояний для программирования бизнес-логики на основе узлов</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/myfsm" class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>FSM engine</h3>
+                    <div class="card-tags"><span class="card-tag">Python</span><span class="card-tag">Workflow</span>
+                    </div>
+                    <p>Proof of concept движок бизнес-логики на основе pysm и gojs</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/fsm_engine"
+                        class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>MiniBL</h3>
+                    <div class="card-tags"><span class="card-tag">Python</span><span class="card-tag">Workflow</span>
+                    </div>
+                    <p>Очередная попытка переизобрести BPMN</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/minibl" class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>Panda 3D Python scripting</h3>
+                    <div class="card-tags"><span class="card-tag">C++</span><span class="card-tag">Python</span></div>
+                    <p>Вызов Python-скриптов внутри C++-цикла игрового движка Panda 3D.</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/panda-cpp-scripting"
+                        class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>Panda OpenAL EFX</h3>
+                    <div class="card-tags"><span class="card-tag">C++</span></div>
+                    <p>Интеграция звуковых фильтров OpenAL для Panda3D</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/panda3d/tree/openal-efx"
+                        class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>OpenGL-движок</h3>
+                    <div class="card-tags"><span class="card-tag">C++</span><span class="card-tag">3D</span>
+                    </div>
+                    <p>Простой игровой движок с деревом сцены и самописной математикой (когда OpenGL ещё был актуален)
+                    </p>
+                    <a target="_blank" href="https://github.com/maximryzhov/GLGame/" class="project-url">GitHub</a>
+                </div>
+                <div class="card">
+                    <h3>Генератор визуальных новелл</h3>
+                    <div class="card-tags"><span class="card-tag">LLM</span><span class="card-tag">Python</span>
+                        <span class="card-tag">Stable Diffusion</span>
+                    </div>
+                    <p>Генератор персонажей, сюжета и готового кода новелл на RenPy с помощью ИИ</p>
+                    <a target="_blank" href="https://github.com/maximryzhov/authomated-vn"
+                        class="project-url">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section id="contacts">
+        <div class="container">
+            <!-- <h2 class="section-title">Контакты</h2> -->
+            <div class="contacts-block">
+                <div class="contacts-icons">
+                    <a target="_blank" href="mailto:maximryzhov88@yandex.ru" class="contact-icon">
+                        <i class="fas fa-envelope"></i><span>Email</span>
+                    </a>
+                    <!-- <a target="_blank" href="#" class="contact-icon">
+                        <i class="fab fa-telegram"></i><span>Telegram</span>
+                    </a> -->
+                    <a target="_blank"
+                        href="https://max.ru/u/f9LHodD0cOI5KxGkUg0tK3_NxjsI--h0V1KhFyhhV9E1Ck0zmQzopcIkvq8"
+                        class="contact-icon">
+                        <i class="custom-icon icon-max"></i><span>Я в Max</span>
+                    </a>
+                    <a target="_blank" href="https://github.com/maximryzhov/" class="contact-icon">
+                        <i class="fab fa-github"></i><span>GitHub</span>
+                    </a>
+                    <a target="_blank" href="https://ufa.hh.ru/resume/1f9358b8ff01f9fb9d0039ed1f32713371676e"
+                        class="contact-icon">
+                        <i class="fas fa-file-alt"></i><span>HH.ru</span>
+                    </a>
+                    <a target="_blank" href="https://rmgi.blog" class="contact-icon">
+                        <i class="fas fa-comment-dots"></i><span>Блог</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Максим Рыжов | 2026</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="topButton">↑</button>
+
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".menu a");
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach(section => {
+                const top = section.offsetTop - 120;
+                if (scrollY >= top) current = section.id;
+            });
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === "#" + current) {
+                    link.classList.add("active");
+                }
+            });
+            const topBtn = document.getElementById("topButton");
+            if (window.scrollY > 400) topBtn.classList.add("visible");
+            else topBtn.classList.remove("visible");
+        });
+        document.getElementById("topButton").addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+
+</html>
